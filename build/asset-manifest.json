@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01db8186.css",
+    "main.js": "/static/js/main.14ec0b22.js",
+    "static/js/787.633816a4.chunk.js": "/static/js/787.633816a4.chunk.js",
+    "static/media/notepad-clipart.jpg": "/static/media/notepad-clipart.7f27f80c02343812ea44.jpg",
+    "index.html": "/index.html",
+    "main.01db8186.css.map": "/static/css/main.01db8186.css.map",
+    "main.14ec0b22.js.map": "/static/js/main.14ec0b22.js.map",
+    "787.633816a4.chunk.js.map": "/static/js/787.633816a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01db8186.css",
+    "static/js/main.14ec0b22.js"
+  ]
+}

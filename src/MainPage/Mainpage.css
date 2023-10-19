@@ -1,0 +1,194 @@
+/* 전역 스타일 초기화 */
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+/* 홈 헤더 섹션 스타일 */
+.HomeHeader {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width:100%;
+    height:6vh;
+}
+
+.HomeLogo{
+    font-weight:bold;
+    cursor:pointer; /* 로고에 마우스를 올리면 포인터로 변경 */
+}
+
+/* 로그인 버튼 스타일 */
+.HomeLogin > button{
+   margin-left:40px;
+   border:none;
+   border-radius:40px 40px; /* 버튼의 모서리를 둥글게 */
+   padding:5px 10px;
+   background-color:rgba(59, 59, 133, 0.5);
+   color:rgba(247, 240, 240, 0.788);
+   font-weight:bold;
+   font-size:16px;
+   cursor:pointer; /* 버튼 위에 마우스를 올리면 포인터로 변경 */
+}
+
+/* 로그인 버튼 호버 상태 스타일 */
+.HomeLogin > button:hover{
+    color:rgb(238, 207, 207);
+   
+}
+
+.HomeMainNav {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+/* 내비게이션 바 스타일 */
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width:80%;
+    margin-left: auto; /* 왼쪽 자동 여백 */
+    margin-right: auto; /* 오른쪽 자동 여백 */
+    height:8vh;
+    border-radius:40px 40px; /* 상단, 하단 모서리 둥글게 */
+    margin-top:10px; /* 상단 여백 */
+    background-color:rgba(190, 162, 190, 0.664); /* 배경색 설정 */
+}
+
+/* 각 내비게이션 항목 스타일 */
+.Home1, .Home2, .Home3 {
+    font-size:20px;
+    font-weight:bolder;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center; /* 내용 중앙 정렬 */
+    align-items:center; /* 수직 방향 중앙 정렬 */
+    cursor:pointer;
+}
+
+.Home1 {
+    border-radius:40px 0 0 40px; /* 왼쪽 모서리 둥글게 */
+}
+
+.Home3 {
+    border-radius:0 40px 40px 0; /* 오른쪽 모서리 둥글게 */
+}
+
+/* 내비게이션 항목 호버 시 스타일 */
+.Nav > .Home1:hover, .Nav > .Home2:hover, .Nav > .Home3:hover {
+    background-color: rgb(166, 206, 206); /* 배경색 변경 */
+}
+
+/* 메인 섹션 스타일 */
+
+.Main {
+    position: relative; 
+    width: 100%; 
+    height: 80vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.MainImage {
+    position: absolute; 
+    top: 150px; 
+    left: 300px; 
+    font-size:125px;
+    font-weight:bolder;
+    
+}
+
+.MainImage2 {
+    position: absolute; 
+    bottom: 300px; 
+    right: 300px; 
+    font-size:125px;
+    font-weight:bolder;
+  
+}
+
+.MainButton {
+    position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    
+}
+.MainButton > button {
+    padding:15px 250px;
+    background-color:bisque;
+    border:none;
+    border-radius:40px 40px;
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(126, 122, 117, 0.747);
+    cursor:pointer;
+}
+
+
+
+
+.MemoAbout {
+    background-color: rgba(110, 109, 109, 0.158);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin-top: 100px;
+    
+    gap: 50px;
+}
+
+.AboutItem {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    gap: 20px;
+}
+
+
+
+/* 아래는 각 AboutItem에 대한 정렬 스타일입니다. */
+.AboutItem1 {
+    justify-content: center; 
+}
+
+.AboutItem2 {
+    justify-content: flex-start; 
+}
+
+.AboutItem3 {
+    justify-content: flex-end; 
+}
+
+.AboutItem p {
+    margin: 0;
+}
+
+
+
+.HomeFooter {
+    background-color: #333; 
+    color: white;
+    text-align: center; 
+    padding: 10px 20px; 
+    position: fixed; 
+    width: 100%; 
+    bottom: 0; 
+}
+
+.HomeFooter p, .HomeFooter a {
+    color: white; 
+    text-decoration: none;
+}
+
+.HomeFooter a:hover {
+    text-decoration: underline;
+}

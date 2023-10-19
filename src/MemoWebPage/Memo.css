@@ -1,0 +1,113 @@
+/* Memo.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.MemoContainer {
+  display: flex;
+}
+
+.Sidebar {
+  min-width: 200px; 
+  background-color: #f5f5f5;
+  padding: 20px; 
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2); 
+}
+
+.SidebarItem {
+  padding: 10px;
+  margin-bottom: 10px; 
+  cursor: pointer;
+  background-color: #ddd; 
+  border-radius: 5px; 
+  text-align: center; 
+  margin-top:100px;
+}
+.SidebarItem2 {
+  padding: 10px;
+  margin-bottom: 10px; 
+  cursor: pointer;
+  background-color: #ddd; 
+  border-radius: 5px; 
+  text-align: center; 
+}
+.SidebarItem3 {
+  padding: 10px;
+  margin-bottom: 10px; 
+  cursor: pointer;
+  background-color: #ddd; 
+  border-radius: 5px; 
+  text-align: center; 
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.SidebarItem:hover {
+  background-color: #ccc; 
+}
+
+
+.SidebarItem2:hover {
+  background-color: #ccc; 
+}
+
+.SidebarItem3:hover {
+  background-color: #ccc; 
+}
+.Memodisplay{
+  border:1px solid black;
+  height:40px;
+}
+
+
+
+
+
+.memo-container {
+    padding: 20px;
+    background-color:rgba(221, 152, 129, 0.541);
+  }
+  
+  .menu-bar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* 세로 중앙 정렬을 추가합니다. */
+    padding: 10px 0;
+    border-bottom: 1px solid #161515;
+    margin-bottom: 20px; /* 하단 내용과의 거리를 늘립니다. */
+  }
+  
+  .menu-item {
+    margin-right: 20px;
+    cursor: pointer;
+    user-select: none; /* 텍스트 선택을 방지합니다. */
+  }
+  
+  .alert-unsaved {
+    cursor: pointer;
+    color: red;
+    user-select: none; /* 텍스트 선택을 방지합니다. */
+  }
+  .MemoMain{
+    
+    height:100vh;
+    width:100%;
+    
+  }
+  .MemoSearch{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .MemoSearch > input[type="text"]{
+     width:35%;
+     height:5vh;
+     border-radius:40px 40px;
+     font-size:30px;
+     padding-left:60px;
+  }
+
+  
+  

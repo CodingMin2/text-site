@@ -1,0 +1,132 @@
+/* Signup.css */
+*{
+    margin:0;
+    padding:0;
+}
+
+.SignupMainHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.SignupBox {
+    width: 30%;
+    height: 90vh;
+    border-radius: 100px;
+    box-shadow: 10px 10px rgba(104, 98, 98, 0.493);
+    background-color: white;
+}
+
+.SignupLogo{
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:10vh;
+    font-size:40px;
+    font-weight:bolder;
+    color:rgba(118, 67, 167, 0.664);
+    margin-bottom:150px;
+    
+}
+
+.SignupInput {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    height:50vh; 
+}
+
+.SignupMain input[type="text"],
+.SignupMain input[type="email"],
+.SignupMain input[type="password"]{
+    width:50%;
+    height:5vh;
+    margin-bottom:10px;
+    font-size:30px;
+    padding-left:45px;
+    border:3px solid rgba(110, 106, 106, 0.651);
+    border-radius:40px 40px;
+    padding-right:45px;
+}
+
+.SignupMain {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.SignupMain > .s {
+    margin-top:120px;
+    font-size:150px;
+    color:rgba(207, 165, 151, 0.664);
+    margin-bottom:30px;
+}
+.SignupMain input[type="text"]{
+    margin-bottom:20px;
+}
+.SignupMain input[type="email"]{
+    margin-bottom:20px;
+}
+.SignupMain input[type="password"]{
+    margin-bottom:20px;
+}
+
+
+
+
+.ButtomSignup > button{
+    padding:10px 120px;
+    border:none;
+    margin-bottom:40px;
+    background-color:rgb(87, 87, 165);
+    color:white;
+    cursor:pointer;
+    margin-right:10px;  
+    border-radius: 40px 40px;
+    
+} 
+
+.ButtomSignup {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom:100px;
+}
+.i {
+    position: relative;
+    right:134px;
+    top:42px;
+    font-size:35px;
+}
+.i2 {
+    position: relative;
+    right:134px;
+    top:42px;
+    font-size:35px;
+}
+.i3 {
+    position: relative;
+    right:134px;
+    top:42px;
+    font-size:35px;
+}
+.i4 {
+    position: relative;
+    right:134px;
+    top:42px;
+    font-size:35px;
+}
+.i5 {
+    position: relative;
+    right:134px;
+    top:42px;
+    font-size:35px;
+}
+

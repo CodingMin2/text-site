@@ -1,0 +1,111 @@
+/* CreateMemo.css 파일 */
+.CreateMemoContainer {
+    display: flex;
+    height: 100vh; /* 예: 뷰포트의 높이를 100%로 설정 */
+  }
+  
+  .StyleSidebar {
+    flex-basis: 10%; 
+    padding: 20px; 
+    background-color: #f4f4f4; 
+    border-right: 1px solid #ddd; 
+  }
+  
+  .MemoEditor {
+    flex-grow: 1; 
+    padding: 20px; 
+  }
+  
+ 
+  input[type="color"] {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* 텍스트 영역 스타일 */
+  textarea {
+    width: 100%; 
+    height: 90%; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; 
+  }
+
+.color-picker-label{
+    display: inline-block; /* 레이블을 블록 수준 요소로 만듭니다. */
+    background-color: #f0f0f0; /* 버튼의 배경색 */
+    padding: 8px 16px; /* 안쪽 여백 */
+    cursor: pointer; /* 커서를 버튼처럼 보이게 합니다. */
+    border: 1px solid #ccc; /* 경계선 */
+    border-radius: 5px; /* 둥근 모서리 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    margin-top:10px;
+  }
+
+
+  
+  .color-picker-label:hover {
+    background-color: #e0e0e0; /* 마우스 오버 시 색상 변경 */
+  }
+
+
+  .CircleButton{
+    display: inline-block; /* 레이블을 블록 수준 요소로 만듭니다. */
+    background-color: #f0f0f0; /* 버튼의 배경색 */
+    padding: 8px 16px; /* 안쪽 여백 */
+    cursor: pointer; /* 커서를 버튼처럼 보이게 합니다. */
+    border: 1px solid #ccc; /* 경계선 */
+    border-radius: 5px; /* 둥근 모서리 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    margin-top:10px;
+   
+  }
+
+  .shape-options-box{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap; /* 이 부분이 줄 바꿈을 허용합니다. */
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px; /* 필요에 따라 안쪽 여백(padding)을 추가하여 아이템들 사이의 공간을 만듭니다. */
+}
+
+.shape-options-box > button {
+    border: none;
+    margin: 5px; /* 버튼 주변에 약간의 여백을 두어 다음 줄로 넘어갈 때 겹치지 않게 합니다. */
+    
+}
+  
+.shape.circle {
+    width: 50px; /* 원하는 크기로 조정 */
+    height: 50px; /* 원하는 크기로 조정 */
+    background-color: rgb(255, 255, 255); /* 원하는 색상으로 변경 */
+    border-radius: 50%; /* 원 모양을 만들기 위한 필수 스타일 */
+    border:1px solid black;
+  }
+  
+  /* 사각형 스타일 */
+  .shape.square {
+    width: 50px; /* 원하는 크기로 조정 */
+    height: 50px; /* 원하는 크기로 조정 */
+    background-color: rgb(255, 255, 255); /* 원하는 색상으로 변경 */
+    /* border-radius 속성 없음 (기본적으로 사각형 형태) */
+    border:1px solid black;
+  }
+
+  .itembox {
+    display: inline-block; /* 레이블을 블록 수준 요소로 만듭니다. */
+    background-color: #f0f0f0; /* 버튼의 배경색 */
+    padding: 8px 16px; /* 안쪽 여백 */
+    cursor: pointer; /* 커서를 버튼처럼 보이게 합니다. */
+    border: 1px solid #ccc; /* 경계선 */
+    border-radius: 5px; /* 둥근 모서리 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    margin-bottom:10px;
+    margin-top:10px;
+    font-weight:bold;
+  }
+
+.title{
+    margin-bottom:10px;
+}
